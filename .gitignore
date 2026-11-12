@@ -1,0 +1,20 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node / HyperFrames
+node_modules/
+.hyperframes/
+renders/
+*.mp4
+!skills/**/templates/**/*.mp4
+
+# Generated demo output
+skills/still-to-film/templates/**/out/
