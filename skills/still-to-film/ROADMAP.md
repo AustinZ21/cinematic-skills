@@ -22,7 +22,9 @@ finishing, flash QA and contact sheets. What isn't generalised yet:
 - CG tunnel / jump effects used in HOME (canvas) as reusable components.
 - A Blender kit instead of one example: hull lathe, lattice booms, plumes, a habitat ring, a transparent-sprite render
   preset.
-- Loudness normalisation to a target (EBU R128) in `finish.py`.
+- Loudness normalisation to a target (EBU R128, about -16 LUFS for social) in `finish.py`.
+- A `blender_render.py` starter for the Blender route: GPU check and print, low priority, stills / preview / final
+  modes, frames to disk, contact sheet.
 - Automatic per-shot colour matching (match each shot's histogram to a reference shot) instead of hand values.
 - Tests: render the template in CI and compare frames.
 

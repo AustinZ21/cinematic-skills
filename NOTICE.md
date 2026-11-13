@@ -18,6 +18,13 @@ The cover and figures were made for this repository. The film frames come from H
 
 Demo assets in `skills/still-to-film/templates/` are generated procedurally by scripts in this repository.
 
+`references/blender-route.md` (headless Blender, the target-frame and test-still loop, the lead + one builder split) and the social-delivery notes in `references/finishing.md` (first frame as thumbnail, 4:5, watermark placement, spectrogram check, -16 LUFS) are adapted from Mr Tactical's article "How to make Claude build 3D videos in Blender":
+
+- https://x.com/MrTacticalX/status/2116626031494705365
+- Author: [@MrTacticalX](https://x.com/MrTacticalX)
+
+The text here is rewritten and merged with this repository's own pipeline; no text from the article is reproduced.
+
 The scripts call, but do not include, these projects (each under its own license):
 
 - HyperFrames (https://github.com/heygen-com/hyperframes)

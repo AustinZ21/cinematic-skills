@@ -146,7 +146,7 @@ cinematic-skills/
 │   └── still-to-film/
 │       ├── SKILL.md
 │       ├── ROADMAP.md       what is not generalised yet
-│       ├── references/      pipeline, depth renderer, pitfalls, finishing
+│       ├── references/      pipeline, depth renderer, pitfalls, finishing, Blender route
 │       ├── scripts/         plate prep, masks, starfield, finish, QA
 │       ├── assets/          depthshot.js (WebGL depth-parallax camera)
 │       ├── templates/       a minimal HyperFrames depth shot

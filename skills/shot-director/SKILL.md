@@ -40,6 +40,7 @@ Use this table (or the same fields as a list) for every plan:
 - **Describe the subject's blocking, not just the camera,** or both drift.
 - **Static first when unsure.** If the action and composition don't work still, no move will save them. Then add one move and compare.
 - **Frame for the delivery ratio.** In vertical 9:16, tilts, pedestals, cranes and depth carry the frame while trucks and pans read narrow; keep caption and UI safe zones clear. In wide formats, lateral moves and landscape scale gain.
+- **Frame 0 is the poster.** Most platforms use the first frame as the thumbnail: open on a composed frame, never on black.
 - **Time and space are materials.** Scale needs a ruler; geography before action; hold the line; stage in depth; shrink shot length toward the climax; hold a beat longer than comfortable before a reveal.
 
 ## House defaults

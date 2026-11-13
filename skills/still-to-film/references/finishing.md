@@ -37,3 +37,19 @@ Judge on a contact sheet with neighbouring shots side by side, not shot by shot.
 
 `libx264 -crf 19 -preset slow -maxrate 16M -bufsize 32M`, AAC 256k, `+faststart`. Also export a small preview
 (720p, 30 fps) for sharing and review.
+
+## 5. Delivery for social (X and similar)
+
+- **The first frame is the thumbnail.** Custom covers are not always offered at upload, so frame 0 must already be
+  the cover: never black, title complete, subject in place. If the film opens with text that types or fades in,
+  either start with it fully on, or make the opening frame a finished composition without it.
+- **Aspect.** 4:5 (1080x1350) is the safest portrait size in a feed; 9:16 can be cropped at the sides in some
+  fullscreen players. 16:9 is fine for landscape films. Decide before shooting, not at export.
+- **Watermark or signature.** In empty space near the subject, not in a corner (corners get cropped first) and not
+  on the subject.
+- **Sound.** Licensed recordings only; keep the credit line. The agent can't listen: look at a spectrogram
+  (`ffmpeg -i clip.mp3 -lavfi showspectrumpic=s=1200x400 spec.png`) to catch speech or surprises, and find hits
+  from the waveform before cutting to them. Aim for about -16 LUFS integrated for phone playback
+  (`ffmpeg -i final.mp4 -af loudnorm=print_format=summary -f null -`), and say that a person still has to listen.
+- **Size.** Keep a copy under the platform's upload and preview limits; re-encode with a higher CRF rather than
+  lowering the resolution.

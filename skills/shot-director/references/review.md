@@ -34,3 +34,4 @@ Check the whole cut, not just each shot:
 - **No still moment.** Everything moves, so nothing lands. Place one held, near-silent beat before the biggest moment.
 - **Shots that change nothing.** A shot that doesn't change what the audience knows or feels is decoration. Cut it.
 - **Cuts off the beat** in a music-led piece, or a title that lands between downbeats.
+- **A first frame that can't be the cover.** Most platforms show frame 0 as the thumbnail. Opening on black, on an empty frame or on half-typed text wastes it.

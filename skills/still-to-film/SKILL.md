@@ -51,6 +51,9 @@ one main move per shot, start/end/holds, choosing moves by feeling, time and spa
 
 - **Depth shot or CG?** Depth shot if the camera move stays within the picture (push, pull, small truck/roll).
   CG if something must enter the frame, turn, or be seen from another side.
+- **Browser CG or Blender?** WebGL/canvas for graphic, type-led or fast-iterating shots. Blender (headless, Cycles)
+  when light must bounce for real, the subject is seen from many sides, or physics is involved; budget hours.
+  See `references/blender-route.md`.
 - **How far can the camera go?** Push and pull: far (HOME pushed to 5x). Truck/pedestal: small. Pan, tilt and orbit
   beyond about 10% of the frame: no; cut or extend the plate. See `references/depth-renderer.md`.
 - **Flat or deep?** Thin planar subjects (rings, glass, signs, water from above) get `pz: 0`.
@@ -64,6 +67,7 @@ one main move per shot, start/end/holds, choosing moves by feeling, time and spa
 - No flashes, no on-screen text inside in-world screens, nothing heavy wobbling, unless asked.
 - Every frame is a pure function of timeline time: no clocks, no unseeded randomness.
 - Decode textures before building the timeline; register `window.__timelines["main"]` after.
+- The first frame is the thumbnail on most platforms: never open on black, and open on a frame that works as a cover.
 - The agent can't watch or listen in real time: verify with snapshots, contact sheets, `flash_check.py` and
   `volumedetect`, and say so when reporting.
 
@@ -74,7 +78,8 @@ one main move per shot, start/end/holds, choosing moves by feeling, time and spa
 | `references/pipeline.md` | each stage in detail |
 | `references/depth-renderer.md` | camera parameters, how they map to moves, safe ranges, masks, sprites |
 | `references/pitfalls.md` | every failure we hit (renderer, masks, Blender 5.x, ffmpeg, process) and the fix |
-| `references/finishing.md` | per-shot matching, film look, sound, encode |
+| `references/finishing.md` | per-shot matching, film look, sound, encode, delivery for social |
+| `references/blender-route.md` | full-CG films in headless Blender: when to choose it, rules, the test loop |
 | `assets/depthshot.js` | the WebGL2 depth-parallax renderer |
 | `templates/depth-shot/` | minimal working HyperFrames composition (procedural demo assets) |
 | `scripts/prep_plate.py` | 4x upscale + depth map for one still |
