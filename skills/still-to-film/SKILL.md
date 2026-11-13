@@ -54,6 +54,9 @@ one main move per shot, start/end/holds, choosing moves by feeling, time and spa
 - **Browser CG or Blender?** WebGL/canvas for graphic, type-led or fast-iterating shots. Blender (headless, Cycles)
   when light must bounce for real, the subject is seen from many sides, or physics is involved; budget hours.
   See `references/blender-route.md`.
+- **Footage that won't hold up as a picture?** Don't show it; project it. Use generated or procedural clips as
+  light on a blank 3D object in a dark, hazy room, so form comes from 3D and the footage's flicker reads as
+  flowing light. See `references/footage-as-light.md`.
 - **How far can the camera go?** Push and pull: far (HOME pushed to 5x). Truck/pedestal: small. Pan, tilt and orbit
   beyond about 10% of the frame: no; cut or extend the plate. See `references/depth-renderer.md`.
 - **Flat or deep?** Thin planar subjects (rings, glass, signs, water from above) get `pz: 0`.
@@ -80,6 +83,7 @@ one main move per shot, start/end/holds, choosing moves by feeling, time and spa
 | `references/pitfalls.md` | every failure we hit (renderer, masks, Blender 5.x, ffmpeg, process) and the fix |
 | `references/finishing.md` | per-shot matching, film look, sound, encode, delivery for social |
 | `references/blender-route.md` | full-CG films in headless Blender: when to choose it, rules, the test loop |
+| `references/footage-as-light.md` | projecting moving images onto 3D form: the five roles, build notes, review |
 | `assets/depthshot.js` | the WebGL2 depth-parallax renderer |
 | `templates/depth-shot/` | minimal working HyperFrames composition (procedural demo assets) |
 | `scripts/prep_plate.py` | 4x upscale + depth map for one still |

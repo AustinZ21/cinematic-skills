@@ -25,6 +25,13 @@ Demo assets in `skills/still-to-film/templates/` are generated procedurally by s
 
 The text here is rewritten and merged with this repository's own pipeline; no text from the article is reproduced.
 
+`references/footage-as-light.md` generalises the method shown in aicreataro's making-of post (AI video projected onto a white 3D statue by two projector lights in a dark, hazy hall):
+
+- https://x.com/aicreataro/status/2121141326745903352
+- Author: [@aicreataro](https://x.com/aicreataro)
+
+The write-up, the role split and the review list are this repository's own; the specific tools named in the post are not required.
+
 The scripts call, but do not include, these projects (each under its own license):
 
 - HyperFrames (https://github.com/heygen-com/hyperframes)
